@@ -1,0 +1,60 @@
+
+input: ## Polygon ##  Meta Platforms///////////////////NEWEND
+ formatted response: Meta Platforms///////////////////NEWEND
+
+input: ## Polygon ##  Reddit///////////////////NEWEND
+ formatted response: Reddit///////////////////NEWEND
+
+input: ## Polygon ##  Binance.US***///////////////////NEWEND
+ formatted response: Binance.US///////////////////NEWEND
+
+input: ## Polygon ##  Bebop***///////////////////NEWEND
+ formatted response: Bebop///////////////////NEWEND
+
+input: ## Polygon ##  Polygon***///////////////////NEWEND
+ formatted response: ///////////////////NEWEND
+
+input: ## Polygon ##  Starbucks///////////////////NEWEND
+ formatted response: Starbucks///////////////////NEWEND
+
+input: ## Polygon ##  AlmaBetter***///////////////////NEWEND
+ formatted response: AlmaBetter///////////////////NEWEND
+
+input: ## Polygon ##  Animoca Brands, Sino Global Capital, and Push Protocol///////////////////NEWEND
+ formatted response: Animoca Brands, Sino Global Capital, Push Protocol///////////////////NEWEND
+
+input: ## Polygon ##  Push Protocol, Animocabrands, SinoGlobalCap///////////////////NEWEND
+ formatted response: Push Protocol, Animocabrands, SinoGlobalCap///////////////////NEWEND
+
+input: ## Polygon ##  False***\n', '======================================\n', '[input: ## Polygon ## Polygon's NFT platform is being used by companies such as Disney, Nike, and Reddit.***\n', 'partnership with: Disney, Nike, Reddit***\n', '=================================\n', '[input: ## Polygon ## Polygon is expanding its platform to include the development of blockchain-based gaming solutions.***\n', 'partnership with: False***\n', '============\n', '[input: ## Polygon ## Polygon is a blockchain-based service provider that is making aggressive moves worldwide. Several industrial leaders from different domains, from finance to games, have partnered with Polygon Technology to transform their web architecture. The concept of non-fungible tokens (NFTs) is one of the most popular polygon solutions in the market and paves the way for scalability in the Ethereum industry. The leadership at Polygon still considers the technology to be in the early development stages, and according to them, the best days are still yet to come.***\n']
+
+poly///////////////////NEWEND
+ formatted response: ///////////////////NEWEND
+
+input: ## Polygon ##  Blockchain Council***\n///////////////////NEWEND
+ formatted response: Blockchain Council///////////////////NEWEND
+
+input: ## Polygon ##  Coca-Cola, Starbucks, Reddit, Nike, Disney, GME, Tatsumeeko, Meta, JP Morgan, Amazon Cloud Technology, Discord, Polygon///////////////////NEWEND
+ formatted response: Coca-Cola, Starbucks, Reddit, Nike, Disney, GME, Tatsumeeko, Meta, JP Morgan, Amazon Cloud Technology, Discord///////////////////NEWEND
+
+input: ## Solana ##  Adobe///////////////////NEWEND
+ formatted response: Adobe///////////////////NEWEND
+
+input: ## Immutable X ##  NFL, Liverpool Football Club***///////////////////NEWEND
+ formatted response: NFL, Liverpool Football Club///////////////////NEWEND
+
+input: ## Polygon ##  Polygon///////////////////NEWEND
+ formatted response: ///////////////////NEWEND
+
+input: ## Polygon ##  Iyin Aboyeji, Shodipo Ayomide, Ugochukwu Aronu, Victor Osaretin Asemota, Yele Bademosi///////////////////NEWEND
+ formatted response: Iyin Aboyeji, Shodipo Ayomide, Ugochukwu Aronu, Victor Osaretin Asemota, Yele Bademosi///////////////////NEWEND
+
+input: ## Polygon ##  Axelar network***///////////////////NEWEND
+ formatted response: Axelar network///////////////////NEWEND
+
+input: ## Cardano ##  Axel2X///////////////////NEWEND
+ formatted response: Axel2X///////////////////NEWEND
+
+input: ## Polygon ##  Autograph, OneOf, Sports Illustrated***///////////////////NEWEND
+ formatted response: Autograph, OneOf, Sports Illustrated///////////////////NEWEND
+

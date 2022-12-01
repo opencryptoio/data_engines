@@ -1,0 +1,130 @@
+from queue import Empty
+import requests
+import json
+import pymongo
+import time
+from bson.objectid import ObjectId
+from datetime import datetime
+from traceback import print_exc
+from pymongo.errors import DuplicateKeyError
+from datetime import timedelta
+from collections import Counter
+import pandas as pd
+from datetime import datetime
+import toml
+
+#connect to db
+mongo_client = pymongo.MongoClient({"mongodb+srv://admin_nftanalytics:aMMctxcjh580awu8@cluster0.rf3jd.mongodb.net/?retryWrites=true&w=majority"})
+db = mongo_client["Crypto01"]
+
+#get protocol names
+
+db.app_table_data.drop()
+db.app_table_data.create_index("protocol_slug") #"protocol_type", "protocol_name"
+
+df_users_per_protocol = pd.DataFrame(db.users_per_protocol.find())  #{"on_date": { "$eq": "2022-01-24"}}
+df_chains_per_protocol = pd.DataFrame(db.protocols_per_chain.find().limit(1000))
+
+df_merged = pd.DataFrame(df_chains_per_protocol.merge(df_users_per_protocol, how='right', on='protocol_slug'))
+
+df_merged['on_date'] = pd.to_datetime(df_merged['on_date'])
+
+unique_protocols = df_users_per_protocol["protocol_slug"].unique()
+
+print(len(unique_protocols))
+
+for item in unique_protocols:
+
+    print(item)
+
+    df_filtered = df_merged[df_merged['protocol_slug']==item]
+    df_filtered.reset_index()
+
+    chain_arr = []
+
+    for index, subitem in df_filtered[df_filtered['on_date']=="2021-08-18"].iterrows():
+        chain_arr.append(subitem["chain_y"])
+
+    #================
+
+    try:
+
+        sum_number_of_new_users_6month_current = df_filtered.groupby([(pd.Grouper(key="on_date", freq='180D')), "protocol_slug"])["number_of_new_users"].sum().iloc[-1]
+        sum_number_of_new_users_6month_previous = df_filtered.groupby([(pd.Grouper(key="on_date", freq='180D')), "protocol_slug"])["number_of_new_users"].sum().iloc[-2]
+        ptc_change_new_6month = ((sum_number_of_new_users_6month_current/sum_number_of_new_users_6month_previous) - 1) * 100
+ 
+        sum_number_of_new_users_month_current = df_filtered.groupby([(pd.Grouper(key="on_date", freq='30D')), "protocol_slug"])["number_of_new_users"].sum().iloc[-1]
+        sum_number_of_new_users_month_previous = df_filtered.groupby([(pd.Grouper(key="on_date", freq='30D')), "protocol_slug"])["number_of_new_users"].sum().iloc[-2]
+        ptc_change_new_month = ((sum_number_of_new_users_month_current/sum_number_of_new_users_month_previous) - 1)* 100
+
+
+    #=================
+
+
+        sum_number_of_active_users_day_current = df_filtered.groupby([(pd.Grouper(key="on_date", freq='1D')), "protocol_slug"])["number_of_active_users"].sum().iloc[-1]
+        sum_number_of_active_users_day_previous = df_filtered.groupby([(pd.Grouper(key="on_date", freq='1D')), "protocol_slug"])["number_of_active_users"].sum().iloc[-2]
+        ptc_change_active_day = ((sum_number_of_active_users_day_current/sum_number_of_active_users_day_previous) -1) * 100
+
+
+    #=================
+
+
+        sum_number_of_total_users_current = df_filtered.groupby([(pd.Grouper(key="on_date", freq='1D')), "protocol_slug"])["number_of_total_users"].sum().iloc[-1]
+        sum_number_of_total_users_previous = df_filtered.groupby([(pd.Grouper(key="on_date", freq='1D')), "protocol_slug"])["number_of_total_users"].sum().iloc[-2]
+        ptc_change_total_day = ((sum_number_of_total_users_current/sum_number_of_total_users_previous) - 1) * 100
+
+
+    except:
+        pass
+
+    #=================
+
+    def getptcChange(current, previous):
+
+        if previous >= current:
+            return  -1 * ((current/previous) - 1)
+        else:
+            return  (current/previous) - 1
+
+
+
+    df_filtered.groupby([(pd.Grouper(key="on_date", freq='30D')), "protocol_slug"])["number_of_active_users"].sum()
+
+    active_users_day_arr = []
+
+    df_sum_number_of_new_users_day_current = pd.DataFrame(df_filtered.groupby([(pd.Grouper(key="on_date", freq='1D')), "protocol_slug"])["number_of_active_users"].sum())
+
+    counter = 0
+
+    for index, subitem in df_sum_number_of_new_users_day_current.iterrows():
+        active_users_day_arr.append(int(subitem))
+        if counter >= 365:
+            break
+        counter += 1
+
+    print("inserting record")
+
+    db.app_table_data.insert_one({"protocol_type": df_filtered.iloc[0]["protocol_type"],
+                                  "protocol_name_x": df_filtered.iloc[0]["protocol_name_x"],
+                                  "protocol_slug": df_filtered.iloc[0]["protocol_slug"],
+                                  "logo": df_filtered.iloc[0]["logo"],
+                                  "sum_number_of_new_users_month_current": int(sum_number_of_new_users_month_current),
+                                  "sum_number_of_new_users_month_previous": int(sum_number_of_new_users_month_previous),
+                                  "ptc_change_new_month": round(ptc_change_new_month, 1),
+                                  "sum_number_of_new_users_6month_current": int(sum_number_of_new_users_6month_current),
+                                  "sum_number_of_new_users_6month_previous": int(sum_number_of_new_users_6month_previous),
+                                  "ptc_change_new_6month": round(ptc_change_new_6month, 1),
+                                  "sum_number_of_active_users_day_current": int(sum_number_of_active_users_day_current),
+                                  "sum_number_of_active_users_day_previous": int(sum_number_of_active_users_day_previous),
+                                  "ptc_change_active_day": round(ptc_change_active_day, 1),
+                                  "sum_number_of_total_users_day_current": int(sum_number_of_total_users_current),
+                                  "sum_number_of_total_users_day_previous": int(sum_number_of_total_users_previous),
+                                  "ptc_change_total_day": round(ptc_change_total_day, 1),
+                                  "avg_active_users_mo_arr": active_users_day_arr,
+                                  "chains": chain_arr,
+                                })
+
+    
+    
+
+   

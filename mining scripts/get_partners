@@ -1,0 +1,88 @@
+from gnews import GNews
+from traceback import print_exc
+from pymongo.errors import DuplicateKeyError
+from pytickersymbols import PyTickerSymbols
+import requests
+import json
+import re
+
+
+google_news = GNews(language='en', max_results=100)
+
+stock_data = PyTickerSymbols()
+german_stocks = stock_data.get_stocks_by_index('DAX')
+uk_stocks = stock_data.get_stocks_by_index('FTSE 100')
+
+
+
+
+
+word = "hello 69 #  [{ this is \ta\ttest"
+result = re.sub(r'[\W]+', " ", word) 
+
+print(result)  # prints: hello this is a test
+
+
+
+counter = 0
+ 
+with open('articles1215.txt', 'a') as f:
+
+    companies =  ["Matter Labs", "Google", "Microsoft", "Volkswagen", "UBS", "Bank of America", "HSBC", "Mercedes", "DHL"]                                 #list(german_stocks)
+
+    for company in companies:
+
+        """
+
+        company = company["name"]
+
+        company = company.replace("AG", "")
+        company = company.replace("Holding", "")
+        company = company.replace("Group", "")
+        company = company.replace("SE", "")
+        company = company.replace("N.V.", "")
+        company = company.replace("PLC", "")
+        company = company.replace("KGaA Vz", "")
+        company = company.replace("AG & Co. KGaA St", "")
+
+
+        """
+
+        news = google_news.get_news('{} AND partnership'.format(company))
+
+        for item in news:
+
+            try:
+
+                if counter == 600:
+                    print(counter)
+                    f.close()
+                    break
+
+                counter += 1
+                print(counter)
+
+                article = google_news.get_full_article(item['url'])
+
+                print(article.title)
+
+                lines = article.text.split('\n')
+                cut_articletext = [line for line in lines if line.strip()]
+
+                for sentence in cut_articletext:
+
+                    #("foundation" in sentence.lower() and company in sentence) or ("firm" in sentence.lower() and company in sentence) or ("company" in sentence.lower() and company in sentence)
+
+                    if "partnership" in sentence and "Matter Labs" in sentence:
+                        f.write("{ " + chr(34) + "prompt" + chr(34) + ": " + chr(34) + str(counter) + " / " + str(company) + " / " + sentence + " " + " ->END" + chr(34) + ", " + chr(34) + "completion" + chr(34) + ": " + chr(34) + "BOOL" + " END" + chr(34) + " }" + "\n")
+                        print(sentence)
+                            
+                    else:
+                        continue
+
+                print(counter)
+
+            except Exception as e:
+                print(e)
+                pass
+                

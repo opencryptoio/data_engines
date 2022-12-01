@@ -1,0 +1,120 @@
+input: ## Flow ## "At the moment, Flow network is actively powering different protocols and partnering with top venture capitalists to upgrade its Web3 offerings.##########END###########
+partnership with: False##########END###########
+====================================
+input: ## Flow ## Both countries recognised the importance of the UK-Singapore Digital Economy Agreement (DEA) signed earlier this year, and the principle of the free flow of data which is enshrined in it. They noted the significance of this agreement in underpinning the development of respective FinTech sectors and supporting future digital and innovation partnerships.##########END###########
+partnership with: False##########END###########
+====================================
+input: ## Flow ## Using Blockchain and unifying all points of interaction into one single platform, Param Network enables companies to connect, transact and collaborate digitally in real-time with all their partners. It can readily connect with any ERP, SCM and EDI softwares and build multi-enterprise workflows rapidly.##########END###########
+partnership with: False##########END###########
+====================================
+input: ## VeChain ## VeChain-built NFT blockchain Exoworlds announces official partnership with sp4ce games, a blockchain gaming firm.##########END###########
+partnership with: sp4ce##########END###########
+====================================
+input: ## VeChain ## Supply@ME and VeChain will launch the next project under the duo’s partnership agreement in the next few months.##########END###########
+partnership with: Supply@ME##########END###########
+====================================
+input: ## VeChain ## Blockchain technology helps with live tracking and analysis of energy consumption. Earlier in the year, the VeChain foundation and Amazon web services partnered to explore a carbon-neutral digital infrastructure to enable firms to manage their carbon footprint and achieve their emission targets.##########END###########
+partnership with: Amazon web services##########END###########
+====================================
+input: ## VeChain ## LONDON, Oct. 31, 2022 /PRNewswire/ -- Among the carbon footprint management market trends blockchain technology is gaining traction. Service providers in the carbon footprint management market are increasingly using blockchain technology to improve carbon traceability. Blockchain technology helps to track and analyze energy consumption data in real-time. In March 2022, VeChain Foundation, a blockchain technology provider, announced a partnership with Amazon Web Services (AWS), a US-based provider of cloud-computing services, to support the VeCarbon platform. The platform will merge blockchain with a carbon-neutral digital infrastructure and help companies to manage their carbon footprint and emission targets.##########END###########
+partnership with: Amazon Web Services (AWS)##########END###########
+====================================
+input: ## VeChain ## VeChain will become UFC’s first-ever Official Layer 1 Blockchain Partner, providing the blockchain Foundation with an unprecedented level of integration into key UFC assets, ranging from live events, including broadcast features and in-arena promotion, to original content distributed through UFC’s popular digital and social channels. Through UFC’s far-reaching global footprint, VeChain will have meaningful brand visibility within an estimated 900 million TV households in 175 countries that receive UFC’s broadcasts.##########END###########
+partnership with: UFC##########END###########
+====================================
+input: ## VeChain ## It uses technologies like transaction fee delegation protocols, in-built smart contracts, on-chain governance, and meta-transaction features to boost the performance of its tools. Its native token, VET, can be used for various transactional uses that one may encounter on the network. Recently, Amazon Cloud Technology announced that it would be teaming up with VeChain’s Shanghai Exploration Chain to dive into trusted carbon management. The partnership is aimed at driving sustainable innovation using blockchain and the cloud. With VeChain’s support, Amazon would offer carbon management for companies using dual carbon.##########END###########
+partnership with: Amazon Cloud Technology##########END###########
+====================================
+input: ## VeChain ## VeChain has been expanding its network with multiple partnerships in the blockchain space recently.##########END###########
+partnership with: False##########END###########
+====================================
+input: ## VeChain ## VeChain scores new partnership and becomes a member of one of the most powerful global operating associations##########END###########
+partnership with: False##########END###########
+====================================
+input: ## BNB ## According to Sunny Lu, co-Founder, and CEO of BNB, the partnership is the beginning of long-term collaborations to change the world.##########END###########
+partnership with: False##########END###########
+====================================
+input: ## VeChain ## That’s exactly why UFC couldn’t be more excited about its groundbreaking partnership with VeChain.##########END###########
+partnership with: UFC##########END###########
+====================================
+input: ## VeChain ## "We are always looking to join hands with innovative companies pushing the fore of digital technology. VeChain has demonstrated its ability to dream up, and subsequently deploy innovative ideas and ecosystems that harness the revolutionary power of blockchain. We recognised the same potential in [email protected] and their novel TradFi-DeFi inventory management service. We look forward to collaborating with them to co-develop these new systems and provide businesses with an entirely new method of raising value from Inventory Monetisation."##########END###########
+partnership with: False##########END###########
+====================================
+input: ## VeChain ## VeChain can already score with some great partnerships. One of the biggest partners is PricewaterhouseCooper (PWC). VeChain and PWC want to offer third-party services to participants on the decentralized platforms. Together with PWC, they are rapidly expanding VeChain’s network and strengthening the value of the platform with each new member.##########END###########
+partnership with: PWC##########END###########
+====================================
+input: ## Solana ## During the ecosystem’s annual gathering at Breakpoint 2022 in Lisbon, Solana made a series of launch announcements as it prepares to go mainstream. Cointelegraph’s ground team — present during the conference — shared insights into Solana’s roadmap, which includes the launching of smartphones, decentralized application (DApp) stores and a partnership with Google Cloud, among others.##########END###########
+partnership with: Google Cloud##########END###########
+====================================
+input: ## Solana ## Today, the Japanese sportswear company unveils the ‘UI Collection,’ created in partnership with blockchain brand Solana. The collection – which according to Asics “has been exclusively designed for everyday activity” – includes two versions of Asics’ GT-2000 shoe: a white ‘light mode’ and a black ‘dark mode.’##########END###########
+partnership with: Asics##########END###########
+====================================
+input: ## Solana ## Google Cloud has announced a ground-breaking partnership with Solana. One of the world’s largest cloud service providers will become an integral part of the Solana network and bring Solana into its wide array of products and services.##########END###########
+partnership with: Google Cloud##########END###########
+====================================
+input: ## Polygon ## The Polygon MATIC token price is surging due to a sequence of high profile partnerships with Meta, JPMorgan and Reddit involving NFT development.##########END###########
+partnership with: Meta, JP Morgan, Reddit##########END###########
+====================================
+input: ## Polygon ## Recent highlights include Meta tapping Polygon to let Instagram users mint NFTs, Starbucks building an NFT-driven loyalty rewards program, Reddit minting unique NFT avatars, Nike revealing plans to mint digital apparel NFTs, and an NFT collectibles partnership with Disney after Polygon took part in the entertainment giant’s accelerator program.##########END###########
+partnership with: Meta, Instagram, Starbucks, Reddit, Nike, Disney##########END###########
+====================================
+input: ## Polygon ## Polygon and Chainlink score new partnership with FibSwap – Will the MATIC price explode to $10?##########END###########
+partnership with: FibSwap##########END###########
+====================================
+input: ## Polygon ## London, UK , Nov. 25, 2022 (GLOBE NEWSWIRE) -- BIZI LABS, the Swiss based mobile platform that allows people to easily access web3, today announced that it will integrate the Polygon network into its flagship Web3 partner smartphone brand, ZMBIZI — the world’s first smartphone that combines built-in web3 features, user rewards, and multi chain functionality.##########END###########
+partnership with: BIZI LABS##########END###########
+====================================
+input: ## Immutable X ## Today, Immutable X launched GameStop’s NFT marketplace out of beta, which will provide GameStop players and customers across the U.S. access to NFTs tied to games on its layer-2 chain. This announcement follows GameStop and Immutable X’s partnership and $100 million joint grant fund from February.##########END###########
+partnership with: GameStop##########END###########
+====================================
+input: ## Immutable X ## Tatsumeeko, a role-playing game on Ethereum and Solana created by the team behind Discord chatbot Tatsu.GG, announced today it has struck a partnership with Immutable X (IMX). The partnership’s goal is to enhance Tatsumeeko’s gameplay experience by focusing on trackable ownership and transfer of in-game assets.##########END###########
+partnership with: Tatsumeeko##########END###########
+====================================
+input: ## Immutable X ## GameStop first announced its partnership with Immutable X in February. The company individually participated in a 500 million USD fund as an investor to promote game development using Immutable X as the primary platform.##########END###########
+partnership with: GameStop##########END###########
+====================================
+input: ## Immutable X ## On July 11, 2022, one of the worlds leading gaming retailers, Gamestop, launched its NFT marketplace. This public beta version of the GME NFT marketplace saw over $7 million in collection trading volume in its first week! With the rise of the gaming industry adopting new technologies and figuring out new ways to interact with fans, GameStop is literally a go-to spot for gamer communities and brands alike. Then, on October 31st, the platform officially launched via a partnership with Immutable X – an Ethereum layer 2 scaling solution focused on blockchain/web3 gaming. In this guide, you will learn how to buy NFTs on GameStop, how to become a creator, and potentially make profits on the GME NFT platform!##########END###########
+partnership with: Gamestop##########END###########
+====================================
+input: ## Immutable X ## The round was led by venture capital firm Supernode Global, and included participation from Play Ventures, Active Partners, Founders Factory, Stake Capital and Immutable X.##########END###########
+partnership with: False##########END###########
+====================================
+input: ## Immutable X ## Immutable X, the first layer-2 scaling solution for NFTs using Ethereum, entered into a strategic partnership with Turner Sports to build blockchain games for premier sports. The titles will be powered by StarkWare.##########END###########
+partnership with: Turner Sports##########END###########
+====================================
+input: ## Immutable X ## SEOUL, South Korea, Oct. 20, 2022 /PRNewswire/ -- Mantisco, a Web3 game developer and publisher based in Seoul, Korea, today announced a partnership with Immutable X, an industry-leading NFT minting and trading platform and the world's first Layer 2 rapid-scaling solution on Ethereum to build Web3 game, called "Hunter's Arena: Rebirth.##########END###########
+partnership with: Matisco##########END###########
+====================================
+input: ## Cardano X ## Cardano-based P2P Game Cornucopias rolled out the first-ever bridge connecting the BSC blockchain, thanks to the partnership between research and development firm IOG and ChainPort, a permissionless crypto bridge.##########END###########
+partnership with: False##########END###########
+====================================
+input: ## Cardano X ## OccamFi is a leading DeFi incubator platform with a focus on Cardano and Milkomeda that is powered by its underlying DAO. DAO members get a chance to access numerous perks, including early investor rounds for projects part of the Occam incubator. Aside from perks, members are also tasked with passing votes regarding upcoming incubator candidates and Occam’s future partnerships.##########END###########
+partnership with: False##########END###########
+====================================
+input: ## Cardano X ##  Virtua is a multi-chain metaverse project that utilizes Polygon, Elrond, Wax, and Cardano within its ecosystem. Additionally, partnerships with top IPs, including Top Gun, King Kong, The Godfather, Kevin Hart, Shelby, and William Racing, enable players to live out exciting and varied experiences within the Virtua metaverse.##########END###########
+partnership with: Virtua##########END###########
+====================================
+input: ## Cardano X ##  Notable speakers from Cardano’s founding entities (including Charles Hoskinson), ecosystem partners, and selected Cardano community members will talk on a wide range of related topics, including Cardano DeFi, NFTs, Cardano Web3, investing, the Cardano metaverse, and gaming, among others.##########END###########
+partnership with: False##########END###########
+====================================
+input: ## Cardano X ##  Adaverse was launched in September 2021 as a joint venture partnership between EMURGO Africa and Everest Ventures, to identify and provide valuable support resources to promising African founders building the next wave of Web3 dApps in DeFi, NFTs, gaming, metaverse, and more on Cardano’s environmentally-sustainable blockchain. EMURGO Africa is one of the investment arms of EMURGO, a founding entity of the Cardano blockchain.##########END###########
+partnership with: Adverse##########END###########
+====================================
+input: ## Cardano X ##  Lead Cardano developer company Input Output Global (IOG) announced a partnership with U.S. Ivy League university Stanford. The blockchain company will provide $4.5 million in funding for the next 3 years for the Stanford IOG Research Hub.##########END###########
+partnership with: Input Output Global, Stanford##########END###########
+====================================
+input: ## Cardano X ##  On Friday (August 19), Cardalonia ($LONIA), the Web3 startup that claims to be “building the biggest metaverse ecosystem on Cardano”, announced an interesting new partnership.##########END###########
+partnership with: Cardalonia##########END###########
+====================================
+input: ## Cardano X ##  Proof-of-stake blockchain platform, Cardano, has partnered with COTI, a DAG-based Layer 1 protocol, to launch what it refers to as an over-collateralized algorithmic stablecoin. The project said in an announcement provided to Cointelegraph that the stablecoin will be backed by excess collateral in the form of cryptocurrency stored in a reserve.##########END###########
+partnership with: COTI##########END###########
+====================================
+input: ## Cardano X ##  Against the backdrop of the conflict in Tigray, the wisdom of IOHK's partnership with a government accused by the World Peace Foundation of “widespread and systematic destruction and impoverishment, not to mention killing and rape,” has been questioned by Cardano supporters.##########END###########
+partnership with: False##########END###########
+====================================
+input: ## Cardano X ##  Cardano developer Input Output Global (IOG) recently partnered with iceaddis to support its ecosystem. The partners launched Ariob as part of an incubator scheme that will improve the growth of those projects supported by Project Catalyst.##########END###########
+partnership with: iceaddis##########END###########
+====================================
+input: ## Cardano X ##  Global blockchain research and Cardano development company IOHK has announced a partnership with the Ethiopian Government, as per a release shared with CryptoSlate.##########END###########
+partnership with: Ethiopian Government##########END###########
+====================================

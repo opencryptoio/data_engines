@@ -1,0 +1,42 @@
+input: ## VeChain ## VeChain-built NFT blockchain Exoworlds announces official partnership with sp4ce games, a blockchain gaming firm.##########END###########
+partnership with: sp4ce##########END###########
+====================================
+input: ## VeChain ## Supply@ME and VeChain will launch the next project under the duo’s partnership agreement in the next few months.##########END###########
+partnership with: Supply@ME##########END###########
+====================================
+input: ## VeChain ## It uses technologies like transaction fee delegation protocols, in-built smart contracts, on-chain governance, and meta-transaction features to boost the performance of its tools. Its native token, VET, can be used for various transactional uses that one may encounter on the network. Recently, Amazon Cloud Technology announced that it would be teaming up with VeChain’s Shanghai Exploration Chain to dive into trusted carbon management. The partnership is aimed at driving sustainable innovation using blockchain and the cloud. With VeChain’s support, Amazon would offer carbon management for companies using dual carbon.##########END###########
+partnership with: Amazon Cloud Technology##########END###########
+====================================
+input: ## BNB ## According to Sunny Lu, co-Founder, and CEO of BNB, the partnership is the beginning of long-term collaborations to change the world.##########END###########
+partnership with: False##########END###########
+====================================
+input: ## VeChain ## VeChain can already score with some great partnerships. One of the biggest partners is PricewaterhouseCooper (PWC). VeChain and PWC want to offer third-party services to participants on the decentralized platforms. Together with PWC, they are rapidly expanding VeChain’s network and strengthening the value of the platform with each new member.##########END###########
+partnership with: PWC##########END###########
+====================================
+input: ## Polygon ## The Polygon MATIC token price is surging due to a sequence of high profile partnerships with Meta, JPMorgan and Reddit involving NFT development.##########END###########
+partnership with: Meta, JP Morgan, Reddit##########END###########
+====================================
+input: ## Polygon ## Recent highlights include Meta tapping Polygon to let Instagram users mint NFTs, Starbucks building an NFT-driven loyalty rewards program, Reddit minting unique NFT avatars, Nike revealing plans to mint digital apparel NFTs, and an NFT collectibles partnership with Disney after Polygon took part in the entertainment giant’s accelerator program.##########END###########
+partnership with: Meta, Instagram, Starbucks, Reddit, Nike, Disney##########END###########
+====================================
+input: ## Polygon ## London, UK , Nov. 25, 2022 (GLOBE NEWSWIRE) -- BIZI LABS, the Swiss based mobile platform that allows people to easily access web3, today announced that it will integrate the Polygon network into its flagship Web3 partner smartphone brand, ZMBIZI — the world’s first smartphone that combines built-in web3 features, user rewards, and multi chain functionality.##########END###########
+partnership with: BIZI LABS##########END###########
+====================================
+input: ## Immutable X ## Tatsumeeko, a role-playing game on Ethereum and Solana created by the team behind Discord chatbot Tatsu.GG, announced today it has struck a partnership with Immutable X (IMX). The partnership’s goal is to enhance Tatsumeeko’s gameplay experience by focusing on trackable ownership and transfer of in-game assets.##########END###########
+partnership with: Tatsumeeko##########END###########
+====================================
+input: ## Immutable X ## On July 11, 2022, one of the worlds leading gaming retailers, Gamestop, launched its NFT marketplace. This public beta version of the GME NFT marketplace saw over $7 million in collection trading volume in its first week! With the rise of the gaming industry adopting new technologies and figuring out new ways to interact with fans, GameStop is literally a go-to spot for gamer communities and brands alike. Then, on October 31st, the platform officially launched via a partnership with Immutable X – an Ethereum layer 2 scaling solution focused on blockchain/web3 gaming. In this guide, you will learn how to buy NFTs on GameStop, how to become a creator, and potentially make profits on the GME NFT platform!##########END###########
+partnership with: Gamestop##########END###########
+====================================
+input: ## Cardano X ## OccamFi is a leading DeFi incubator platform with a focus on Cardano and Milkomeda that is powered by its underlying DAO. DAO members get a chance to access numerous perks, including early investor rounds for projects part of the Occam incubator. Aside from perks, members are also tasked with passing votes regarding upcoming incubator candidates and Occam’s future partnerships.##########END###########
+partnership with: False##########END###########
+====================================
+input: ## Cardano X ##  Notable speakers from Cardano’s founding entities (including Charles Hoskinson), ecosystem partners, and selected Cardano community members will talk on a wide range of related topics, including Cardano DeFi, NFTs, Cardano Web3, investing, the Cardano metaverse, and gaming, among others.##########END###########
+partnership with: False##########END###########
+====================================
+input: ## Cardano X ##  Cardano developer Input Output Global (IOG) recently partnered with iceaddis to support its ecosystem. The partners launched Ariob as part of an incubator scheme that will improve the growth of those projects supported by Project Catalyst.##########END###########
+partnership with: iceaddis##########END###########
+====================================
+input: ## Cardano X ##  Global blockchain research and Cardano development company IOHK has announced a partnership with the Ethiopian Government, as per a release shared with CryptoSlate.##########END###########
+partnership with: Ethiopian Government##########END###########
+====================================
