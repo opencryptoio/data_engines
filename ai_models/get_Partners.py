@@ -51,17 +51,13 @@ def get_Companyinfo(raw_partner_name):
 
     company = Company()
 
+    google_url = "https://www.google.com"
     driver.get(google_url)
     inputelement = driver.find_element(By.XPATH, "/html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input")
     inputelement.send_keys(raw_partner_name)
     inputelement.send_keys(Keys.ENTER)
 
     company_and_additional_info = driver.find_elements(By.CLASS_NAME, "SPZz6b")
-
-    try:
-        company.icon = driver.find_element(By.ID, "wp_thbn_52").get_attribute("src")
-    except:
-        company.icon = "https://opendata.transport.nsw.gov.au/themes/open_data_portal/Previewlogo.png"
 
     try:
         company.name = company_and_additional_info[0].text.split("\n")[0]
@@ -73,8 +69,22 @@ def get_Companyinfo(raw_partner_name):
         company.industry = company_and_additional_info[0].text.split("\n")[1]
     except:
         company.industry = industry
+              
+
+    google_url = "https://www.google.com.au/imghp?hl=en&ogbl"
+    driver.get(google_url)
+    inputelement = driver.find_element(By.XPATH, "/html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input")
+    inputelement.send_keys(raw_partner_name + " logo")
+    inputelement.send_keys(Keys.ENTER)
 
 
+    try:
+        company.icon = driver.find_element(By.CLASS_NAME, "bRMDJf.islir").find_element(By.TAG_NAME, "img").get_attribute("src")
+        print(company.icon)
+    except:
+        company.icon = "https://opendata.transport.nsw.gov.au/themes/open_data_portal/Previewlogo.png"
+        
+        
     return company
 
 
@@ -126,42 +136,48 @@ db = mongo_client["Crypto01"]
 #db.BA_partners.create_index("partner_name") 
 
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 google_news = GNews(language='en', max_results=100)
 
 counter = 0
 
-with open('./ai_models/prompt_examples_get_partners2.txt', 'r') as f:
+with open('./ai_models/prompt_examples_get_partners2.txt', 'r', encoding="utf-8") as f:
     examples_get_partners_ai = str(f.readlines())
     f.close()
 
-with open('./ai_models/prompt_examples_check_partners_result.txt', 'r') as f:
-    examples_check_partners_ai = str(f.readlines())
-    f.close()
+with open('./ai_models/prompt_examples_check_partners_result.txt', 'r', encoding="utf-8") as f:
+     examples_check_partners_ai = str(f.readlines())
+     f.close()
 
 df_chains = pd.DataFrame(pd.read_csv('chains.csv'), columns=("company", "chain", "type", "status"))
-df_chains = pd.DataFrame(df_chains['status'] != "completed")
+df_chains = pd.DataFrame(df_chains[df_chains['status'] != "completed"])
 
-df_industries = pd.DataFrame(pd.read_csv('industries.csv'))
-df_daterange = pd.DataFrame(pd.read_csv('daterange.csv'))
+df_industries = pd.DataFrame(pd.read_csv('industries.csv'), columns=(["industries"]))
+df_daterange = pd.DataFrame(pd.read_csv('daterange.csv'), columns=(["daterange"]))
 
-print(df_chains["company"])
+print(df_chains)
 
-for chain in df_chains.iterrows():
-    print(chain["chain"])
+index = -1
 
-for index, chain in df_chains["company"]:
+for chain in df_chains["company"]:
+    
+    index += 1
 
     partners = []
+    
+    print(chain)
 
-    for industry in df_industries["industry"]:
+    for industry in df_industries["industries"]:
 
         for daterange in df_daterange["daterange"]:
 
-            for keyword in ["partner"]:
-
-                news = google_news.get_news('{} AND {} AND {} AND {}'.format(chain, industry, daterange, keyword))
+            for keyword in ["partnering"]:
+                
+                if daterange == "none":
+                    news = google_news.get_news('{} AND blockchain AND {} AND {}'.format(chain, industry, keyword))
+                    
+                else: news = google_news.get_news('{} AND {} AND {} AND {}'.format(chain, industry, daterange, keyword))
 
                 for item in news:
 
@@ -174,31 +190,8 @@ for index, chain in df_chains["company"]:
                                 threaditerationcounter = 0
 
                                 article = google_news.get_full_article(item['url'])
-
-                                if "Volkswagen" in article.title:
-                                    print("break")
-                                article_date = ""
-
-                                """
-
-                                def thread_function():
-                                    article = google_news.get_full_article(item['url'])
-                                    
-                                    return article
-
-                                thread = threading.Thread(target=thread_function)
-                                thread.start()
-
-                                while article is None:
-                                    time.sleep(3)
-                                    threaditerationcounter += 1
-
-                                    if threaditerationcounter > 20:
-                                        break
-
-                                """
-                             
-                                    
+                                article_date = article.publish_date
+                                 
                                 print(chain)
                                 print(article.url)
 
@@ -239,7 +232,7 @@ for index, chain in df_chains["company"]:
 
                                             #========================================
                                             if article_date == "": article_date = get_Articledate(article.title)
-                                            article_date = dateparser.parse(article_date).strftime('%d.%m.%Y')
+                                            article_date = dateparser.parse(str(article_date)).strftime('%d.%m.%Y')
                                             #========================================
                         
                                             input_for_ai = "text to analyze: ## {} ## ".format(chain) + sentence + "####END####\n Which companies are partnering or collaborating with {}?:".format(chain)
