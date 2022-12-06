@@ -1,0 +1,95 @@
+
+1.
+Blockchain: VeChain
+
+Text to analyze:" 
+BitOcean
+Industry: Financial services Location: China, Japan
+Partnered since: 27-12-2017 Official announcement(s): 1
+
+BitOcean provides an ATM based solution for buying and selling cryptocurrencies. BiOcean is one of the first cryptocurrency exchanges to become fully licensed by Japan’s Financial Services Authority (FSA). The goal of Bitocean is to create a global network of ATM’s where users can exchange fiat for cryptocurrencies.
+
+BitOcean will work together with VeChain to allow users to buy and sell VET using physical ATMs, starting in Japan and China.
+
+Partnerships"
+
+Direct Imported Goods (D.I.G)
+
+D.I.G is a government-owned wine importer, responsible for over 30% of China’s wine imports. D.I.G. is owned by the Shanghai Waigaoqiao Free Trade Zone Development subsidiary and hopes to eventually become one of China’s biggest distribution channels for imported physical items.
+
+Read more about the partnership between D.I.G. and VeChain here."####END####
+
+
+Which companies are partnering or collaborating with VeChain?: BitOcean, Direct Imported Goods (D.I.G)####END####
+
+=====
+
+2.
+Blockchain: Polygon
+
+Text to analyze: "As part of the Monetary Authority of Singapore (MAS) Project Guardian pilot, JPMorgan completed the first live cross-border transaction using Polygon on November 2.
+
+MAS’ Project Guardian initiative aims to explore ways traditional financial institutions can leverage tokenized assets and decentralized finance (DeFi) protocols to execute financial transactions, among other use cases.
+
+Milestone for JPMorgan
+The Chief Fintech Officer of MAS, Sopnendu Mohanty, said the live pilots led by industry participants demonstrate that digital assets"####END####
+
+Which companies are partnering or collaborating with Polygon?: JPMorgan####END####
+
+
+=====
+
+3.
+Blockchain: Solana
+
+Text to analyze: "The Solana Foundation is excited to announce a technical partnership with dfuse, the blockchain API company. Following the recent announcement of the open-sourcing of the dfuse blockchain data stack, Solana Foundation is today announcing that it will collaborate with dfuse on the technical integration to provide a powerful data solution for Solana’s high-throughput blockchain.
+
+dfuse has been building high-throughput blockchain data solutions for the past two years, and is currently deployed on many EOSIO and Ethereum chains, with other protocols under active development. We believe their solution will""####END####
+
+Which companies are partnering or collaborating with Solana?: dfuse"####END####
+
+
+=====
+
+4.
+Blockchain: Solana
+
+Text to analyze: "Solana, an increasingly popular blockchain known for its speedy transactions, has become the target of the crypto sphere’s latest hack after users reported that funds have been drained from internet-connected “hot” wallets.
+
+An unknown actor drained funds from approximately 8,000 wallets on the Solana network, Solana’s Status Twitter account said. It’s estimated the loss so far is around $8 million.
+
+The attack — which has only affected only “hot” wallets or wallets that are always connected to the internet, allowing people to store and send tokens easily "####END####
+
+Which companies are partnering or collaborating with Solana?: No partnership or collaboration found####END####
+
+
+=====
+
+5.
+Blockchain: Flow - Dapper Labs
+
+Text to analyze: "Dapper Labs is leading the sports-crypto race and is behind some of the biggest projects for officially licensed NFTs. It has partnerships with the NBA, NFL, UFC and Spain's La Liga soccer league. Its NBA Top Shot line of NFTs, which are essentially digital trading cards of highlight clips, have recorded around $1 billion in transactions.
+
+The company received a boost last month after Meta Platforms (META) announced its NFT rollout across 100 countries. The company formerly known as Facebook had been testing NFT support for Instagram and its namesake social media platform for the past few months. And it launched its digital collectibles showcase on Facebook and Instagram earlier this week, which allows integration with Coinbase (COIN)Wallet and Flow."####END####
+
+Which companies are partnering or collaborating with Flow - Dapper Labs?:  NBA, NFL, UFC, Spain's La Liga, Meta Platforms (META)####END####
+
+=====
+
+6. Blockchain: VeChain
+
+Text to analyze: "We also know that China has announced its interest to reduce its carbon emissions in the coming decades, and VeChain's partnership with BYD is aimed directly at that. China also put blockchain in its latest five-year plan. We know that the EU has announced its interest for a digital "green pass" for COVID vaccinations and that VeChain is already doing this (quite elegantly) in Cyprus."####END####
+
+Which companies are partnering or collaborating with VeChain?:  BYD####END####
+
+=====
+
+6. Blockchain: VeChain
+
+Text to analyze: "But the main attraction that VeChain seems to have is its use as a supply and logistics blockchain. A number of large enterprises are now using it to ensure that inventory from start to sale can be accounted for. The VeChain Foundation has “partnered” with a number of large enterprises."####END####
+
+Which companies are partnering or collaborating with VeChain?:  No partnership or collaboration found####END####
+
+
+
+

@@ -17,6 +17,16 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import datetime
 
+import dateparser
+dateparser.parse('12/12/12')
+
+
+dateparser.parse('2 days ago')
+
+
+
+
+
 
 
 
@@ -32,8 +42,14 @@ driver = webdriver.Chrome(service=service_object)
 #inputelement.send_keys(Keys.ENTER)
 
 
-driver.get("https://www.google.ch/search?q=UFC&ei=t0mIY5yhGoCv2roP16iTiAI&ved=0ahUKEwjc2My25df7AhWAl1YBHVfUBCEQ4dUDCBA&uact=5&oq=UFC&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIHCC4Q1AIQQzIECAAQQzIECAAQQzIECAAQQzIECAAQQzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOgsILhCABBDHARCvAToLCC4QgAQQxwEQ0QM6CAguEIAEENQCOgUILhCABEoECEEYAEoECEYYAFCgB1inDWC0EGgCcAB4AIAB5gGIAfcEkgEFMC4xLjKYAQCgAQGwAQDAAQE&sclient=gws-wiz-serp")
-company = driver.find_element(By.ID, "wp_thbn_52")
+driver.get("https://www.google.ch/search?q=Solana+unveils+Google+partnership%2C+smartphones%2C+Web3+store+at+Breakpoint&source=hp&ei=NyqIY-3yIdDc2roPtrOKgAI&iflsig=AJiK0e8AAAAAY4g4RzaLLjAIjBKpvNkAu3TDwxBwaE08&ved=0ahUKEwit6rixx9f7AhVQrlYBHbaZAiAQ4dUDCAk&uact=5&oq=Solana+unveils+Google+partnership%2C+smartphones%2C+Web3+store+at+Breakpoint&gs_lcp=Cgdnd3Mtd2l6EANQAFiCA2DDBGgAcAB4AIABAIgBAJIBAJgBAKABAQ&sclient=gws-wiz")
+company = driver.find_elements(By.CLASS_NAME, "Z26q7c UK95Uc")
+
+frame = driver.find_element(By.XPATH, "/html/body/div[7]/div/div[11]/div/div[2]/div[2]/div/div")
+date = frame.find_elements(By.CLASS_NAME, "MjjYud")
+
+for element in date:
+    print(element.text)
 
 print(company.get_attribute("src"))
 

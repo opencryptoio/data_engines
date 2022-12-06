@@ -1,0 +1,128 @@
+::::::::::
+
+BLOCKCHAIN: Polkadot
+
+list of companies found so far:  BMW Group, PriceWaterhouseCoopers (PWC), Shell, Nike
+new company found : BMW ###END###
+with which company found so far does the name of the new company match? provide the name of the company from the list above: BMW Group
+
+::::::::::
+
+BLOCKCHAIN: Polkadot
+
+list of companies found so far:  BMW Group, PriceWaterhouseCoopers (PWC), Shell, Nike
+new company found : Nike China ###END###
+with which company found so far does the name of the new company match? provide the name of the company from the list above: Nike ###END###
+
+::::::::::
+
+BLOCKCHAIN: Moonbeam
+
+list of companies found so far:  BMW Group, PriceWaterhouseCoopers (PWC), Shell, Nike
+new company found : DHL ###END###
+with which company found so far does the name of the new company match? provide the name of the company from the list above: DHL ###END###
+
+::::::::::
+
+BLOCKCHAIN: Cardano
+
+list of companies found so far:  BMW Group, PriceWaterhouseCoopers (PWC), Shell, Nike
+new company found : Blocklabs ###END###
+with which company found so far does the name of the new company match? provide the name of the company from the list above: Blocklabs ###END###
+
+::::::::::
+
+BLOCKCHAIN: Flow
+
+list of companies found so far:  BMW Group, PriceWaterhouseCoopers (PWC), Shell, Nike
+new company found : NICC ###END###
+with which company found so far does the name of the new company match? provide the name of the company from the list above: NICC ###END###
+
+::::::::::
+
+BLOCKCHAIN: Flow
+
+list of companies found so far:  BMW Group, PriceWaterhouseCoopers (PWC), Shell, Nike
+new company found : Ergebnisse für ###END###
+with which company found so far does the name of the new company match? provide the name of the company from the list above: Not a company ###END###
+
+::::::::::
+
+BLOCKCHAIN: Ethereum
+
+list of companies found so far:  BMW Group, PriceWaterhouseCoopers (PWC), Shell, Nike
+new company found : According to the latest report on th 13.03 ###END###
+with which company found so far does the name of the new company match? provide the name of the company from the list above: Not a company ###END###
+
+::::::::::
+
+BLOCKCHAIN: Ethereum
+
+list of companies found so far:  BMW Group, PriceWaterhouseCoopers (PWC), Shell, Nike
+new company found : Date 12.03.2022, new report issued ###END###
+with which company found so far does the name of the new company match? provide the name of the company from the list above: Not a company ###END###
+
+::::::::::
+
+BLOCKCHAIN: Ethereum
+
+list of companies found so far:  BMW Group, Shell, Crazy Horse Gaming Ltc.
+new company found : Crazy Horse Gaming ###END###
+with which company found so far does the name of the new company match? provide the name of the company from the list above: Grazy Horse Gaming Ltc. ###END###
+
+::::::::::
+
+BLOCKCHAIN: Ethereum
+
+list of companies found so far:  BMW Group, Mercedes Benz
+new company found : Mercedes ###END###
+with which company found so far does the name of the new company match? provide the name of the company from the list above: Mercedes Benz ###END###
+
+::::::::::
+
+BLOCKCHAIN: Solana
+
+list of companies found so far:  
+new company found : Mercedes ###END###
+with which company found so far does the name of the new company match? provide the name of the company from the list above: Mercedes ###END###
+
+::::::::::
+
+BLOCKCHAIN: Solana
+
+companies found so far :
+new company found : H&M Group ###END###
+with which company found so far does the name of the new company match? provide the name of the company from the list above: H&M Group ###END###
+
+::::::::::
+
+BLOCKCHAIN: Polygon
+
+list of companies found so far:  Nike, Adidas, Puma, Omega
+new company found : Nike Ltc. ###END###
+with which company found so far does the name of the new company match? provide the name of the company from the list above: Nike ###END###
+
+::::::::::
+
+BLOCKCHAIN: Polygon
+
+list of companies found so far:  BMW Group, PriceWaterhouseCoopers (PWC), Shell, Nike, Mercedes
+new company found: 0xPolygon ###END###
+with which company found so far does the name of the new company match? provide the name of the company from the list above: Not a company ###END###
+
+::::::::::
+
+BLOCKCHAIN: Solana
+
+list of companies found so far:  BMW Group, PriceWaterhouseCoopers (PWC), Shell, Nike, Mercedes
+new company found: Solana Foundation ###END###
+with which company found so far does the name of the new company match? provide the name of the company from the list above: Not a company ###END###
+
+::::::::::
+
+BLOCKCHAIN: Ethereum Foundation
+
+list of companies found so far:  BMW Group, PriceWaterhouseCoopers (PWC), Shell, Nike, Mercedes
+new company found: Ethereum Foundation ###END###
+with which company found so far does the name of the new company match? provide the name of the company from the list above: Not a company ###END###
+::::::::::

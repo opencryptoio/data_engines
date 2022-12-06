@@ -1,0 +1,15 @@
+openai tools fine_tunes.prepare_data -f "/Users/frederikbull-larsen/Desktop/open_crypto_data/partnersandusers.jsonl"
+
+openai api fine_tunes.create -t "/Users/frederikbull-larsen/Desktop/open_crypto_data/testdata2_prepared.jsonl" -m davinci
+
+openai api fine_tunes.create -t "/Users/frederikbull-larsen/Desktop/open_crypto_data/train_check_parners.jsonl" -m davinci
+
+
+categories:
+
+research, staking,  
+
+
+openai tools fine_tunes.prepare_data -f "ai_models/prompt_examples_get_Adoption.txt"
+
+openai api fine_tunes.create -t "ai_models/prompt_examples_get_Adoption.jsonl" -m davinci

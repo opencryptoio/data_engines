@@ -1,0 +1,52 @@
+input: ### UBS ### Meanwhile, Fnality uses a private version of the Ethereum blockchain. It’s main blockchain technology partner is Adhara, and UBS and Clearmatics initially developed the concept.#######END#######
+Does the sentence above relate to a blockchain topic involving UBS?: True#######END#######
+====================================
+input: ### UBS ### UBS and Microsoft unveil landmark expansion of cloud partnership#######END#######
+Does the sentence above relate to a blockchain topic involving UBS?: False#######END#######
+====================================
+input: ### UBS ### On Thursday, UBS and Microsoft Corp. announced a landmark expansion of their partnership to accelerate UBS’s public cloud footprint over the next five years. Through this transformational initiative, UBS plans to have more than 50% of its applications, including critical workloads, running on Microsoft Azure, now UBS’s primary cloud platform. The partnership furthers UBS’s “cloud-first” strategy and the modernization of its global technology estate.#######END#######
+Does the sentence above relate to a blockchain topic involving UBS?: False#######END#######
+====================================
+input: ### UBS ### FundsDLT and UBS Asset Management (UBS AM) have successfully demonstrated the advantages of a blockchain-based distribution model for investment funds.#######END#######
+Does the sentence above relate to a blockchain topic involving UBS?: True#######END#######
+====================================
+input: ### UBS ### LaSalle Investment Management has partnered with blockchain-based funds solution provider RealBlocks. With $77 billion in funds under administration, LaSalle is the asset management subsidiary of real estate firm Jones Lang LaSalle.#######END#######
+Does the sentence above relate to a blockchain topic involving UBS?: False#######END#######
+====================================
+input: ### UBS ### The bank knows a fair bit about using blockchain for this collateral use case because it’s involved in at least two other projects. It’s an investor in a major European-based collateral platform HQLAX, alongside numerous international banks such as Goldman Sachs, Citi, BNP Paribas, BNY Mellon, ING, Commerzbank, UBS and Credit Suisse. The largest outside investor is the Deutsche Boerse which provides a core piece of functionality. In that case, the collateral and securities lending is used for banks to ensure they have the right mix of liquid assets as required by Basel III banking rules.#######END#######
+Does the sentence above relate to a blockchain topic involving UBS?: True#######END#######
+====================================
+input: ### DHL ### In addition to the seasonal hires, DHL Supply Chain is leaning on robotics to help meet the expected demand bump. Last month, the carrier expanded its partnership with Locus Robotics by adding robots to two Ohio warehouses.The technology will help support fulfillment efforts for DHL’s retail customer Carhartt.#######END#######
+Does the sentence above relate to a blockchain topic involving DHL?: False#######END#######
+====================================
+input: ### DHL ### Logistics giant DHL announced it had partnered with Accenture and created a Blockchain-based supply chain prototype March 12. “DHL and Accenture created a blockchain-based serialization prototype with nodes in six geographies to track pharmaceuticals across the supply chain,” the release reports.#######END#######
+Does the sentence above relate to a blockchain topic involving DHL?: True#######END#######
+====================================
+input: ### DHL ### DHL and Accenture’s pharmaceutical prototype is just one of the use cases highlighted in their trend report. Blockchain technology shows great promise for dramatically improving the efficiency and reliability of supply chains in all industries. Just today, Accenture also announced a “revolutionary” blockchain solution for a supply-chain consortium involving AB InBev, Accenture, APL, Kuehne + Nagel and a European customs organization. This is another emerging model, companies banding together to create a consortium, like B3i, a group of 15 insurance companies collaborating to increase transaction efficiency.#######END#######
+Does the sentence above relate to a blockchain topic involving DHL?: True#######END#######
+====================================
+input: ### DHL ### A modern supply chain typically consists of hundreds of stages managed by dozens of specialists who work with tons of documents all over the world. Logistics processes may drag on for weeks or even months. As the shipping industry is becoming more complex, there is less and less transparency in communication between its participants. The large number of logistics companies crowding the space makes it problematic to detect violations. According to a joint study by Accenture and logistics giant DHL, more than 500,000 shipping companies in the US are causing data siloing and transparency issues. According to the report, blockchain can solve many of the problems plaguing logistics and supply chain management.#######END#######
+Does the sentence above relate to a blockchain topic involving DHL?: False#######END#######
+====================================
+input: ### DHL ### DHL and Accenture created a blockchain-based serialisation prototype with nodes in six geographies to track pharmaceuticals across the supply chain.#######END#######
+Does the sentence above relate to a blockchain topic involving DHL?: True#######END#######
+====================================
+input: ### DHL ### “We see especially exciting potential for blockchain in pharmaceuticals, which is why we focused our proof of concept with Accenture on the life sciences and healthcare industry,” says Keith Turner, CIO Chief Development Office, DHL Supply Chain.#######END#######
+Does the sentence above relate to a blockchain topic involving DHL?: True#######END#######
+====================================
+input: ### DHL ### Andreas Baier, Accenture lead for the travel and transportation industry and DHL client team leader, commented: “We’ve worked closely with DHL to understand and document the broad impact blockchain will have on supply chains of the future,” adds#######END#######
+Does the sentence above relate to a blockchain topic involving DHL?: True#######END#######
+====================================
+input: ### DHL ### With Salesforce now on board, Formula One adds to a global partner roster that also includes Aramco, Crypto.com, DHL, Emirates, Heineken, MSC Cruises, Pirelli and Rolex.
+Does the sentence above relate to a blockchain topic involving DHL?: False#######END#######
+====================================
+input: ### Royal Dutch Shell ### (Reuters) - A consortium including energy companies BP and Royal Dutch Shell will develop a blockchain-based digital platform for energy commodities trading expected to start by end-2018, the group said on Monday.#######END#######
+Does the sentence above relate to a blockchain topic involving Royal Dutch Shell? True#######END#######
+====================================
+input: ### Royal Dutch Shell ### SINGAPORE (Reuters) - Sinochem Energy Technology Co Ltd, a subsidiary of state oil and chemicals firm Sinochem Group, is in talks with Royal Dutch Shell and Macquarie Group to build an energy blockchain platform, three Beijing-based industry sources said.#######END#######
+Does the sentence above relate to a blockchain topic involving Royal Dutch Shell? True#######END#######
+====================================
+input: ### Royal Dutch Shell ### (Reuters) - A consortium including energy companies BP and Royal Dutch Shell will develop a blockchain-based digital platform for energy commodities trading expected to start by end-2018, the group said on Monday.#######END#######
+Does the sentence above relate to a blockchain topic involving Royal Dutch Shell? True#######END#######
+====================================
+

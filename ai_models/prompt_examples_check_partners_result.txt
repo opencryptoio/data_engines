@@ -1,0 +1,37 @@
+list of companies:  Mercedes Benz, EY, Coinbase, Puma
+new company: Mercedes ###END###
+closest match in list of companies: Mercedes Benz ###END###
+
+list of companies: BMW Group, JPMorgan, DHL, BP
+new company: DHL ###END###
+closest match in list of companies: DHL ###END###
+
+list of companies: Adidas, UBS, Shell, Nike
+new company: According to the latest report on th 13.03 ###END###
+closest match in list of companies: This doesnt appear to be a company name ###END###
+
+list of companies: Adidas, UBS, Shell, Nike
+new company: Erfolgreich abgeschlossen: ###END###
+closest match in list of companies: This doesnt appear to be a company name ###END###
+
+list of companies: BMW Group, PriceWaterhouseCoopers (PWC), Apple, Amazon
+new company: Nokia ###END###
+closest match in list of companies: Nokia ###END###
+
+list of companies:
+new company: Nokia ###END###
+closest match in list of companies: Nokia ###END###
+
+list of companies: Meta
+new company: Magic Eden ###END###
+closest match in list of companies: Magic Eden ###END###
+
+list of companies: Twitter, Meta
+new company: Golden Guild ###END###
+closest match in list of companies: Golde Guild ###END###
+
+list of companies: Saudi Aramco, Exxon Mobile
+new company: BP ###END###
+closest match in list of companies: BP ###END###
+
+==========================
