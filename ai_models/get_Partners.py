@@ -126,7 +126,7 @@ db = mongo_client["Crypto01"]
 #db.BA_partners.create_index("partner_name") 
 
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 google_news = GNews(language='en', max_results=100)
 
@@ -140,16 +140,28 @@ with open('./ai_models/prompt_examples_check_partners_result.txt', 'r') as f:
     examples_check_partners_ai = str(f.readlines())
     f.close()
 
+df_chains = pd.DataFrame(pd.read_csv('chains.csv'), columns=("company", "chain", "type", "status"))
+df_chains = pd.DataFrame(df_chains['status'] != "completed")
 
-for chain in ["IOTA", "Polkadot", "Web 3 Foundation", "Hyperledger", "Corda", "IOTA", "Ronin", "Immutable X"]:
+df_industries = pd.DataFrame(pd.read_csv('industries.csv'))
+df_daterange = pd.DataFrame(pd.read_csv('daterange.csv'))
+
+print(df_chains["company"])
+
+for chain in df_chains.iterrows():
+    print(chain["chain"])
+
+for index, chain in df_chains["company"]:
 
     partners = []
 
-    for industry in ["mobility", "auto", "electro", "sustainable", "logistics"]:
+    for industry in df_industries["industry"]:
 
-        for keyword in ["partner"]:
+        for daterange in df_daterange["daterange"]:
 
-                news = google_news.get_news('{} AND blockchain AND {} AND {}'.format(chain, industry, keyword))
+            for keyword in ["partner"]:
+
+                news = google_news.get_news('{} AND {} AND {} AND {}'.format(chain, industry, daterange, keyword))
 
                 for item in news:
 
@@ -162,6 +174,9 @@ for chain in ["IOTA", "Polkadot", "Web 3 Foundation", "Hyperledger", "Corda", "I
                                 threaditerationcounter = 0
 
                                 article = google_news.get_full_article(item['url'])
+
+                                if "Volkswagen" in article.title:
+                                    print("break")
                                 article_date = ""
 
                                 """
@@ -280,6 +295,8 @@ for chain in ["IOTA", "Polkadot", "Web 3 Foundation", "Hyperledger", "Corda", "I
                                                 print(chain)
                                                 print(industry)
 
+
+
                                                 if not checked_name.strip() in partners: partners.append(checked_name.strip())
                                             
                                                 db.BA_partners.insert_one({ "partner_name":company.name,
@@ -303,6 +320,7 @@ for chain in ["IOTA", "Polkadot", "Web 3 Foundation", "Hyperledger", "Corda", "I
 
         
 
+    df_chains.loc[index, ['status']] = "completed"
 
 
 
