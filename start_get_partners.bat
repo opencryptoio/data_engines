@@ -1,0 +1,1 @@
+python C:\Users\fbull\OneDrive\Desktop\data_engines\ai_models\get_Partners.py

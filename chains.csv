@@ -1,21 +1,20 @@
-
-company, chain, type, status
-IOTA, IOTA, general,
-Polygon, Polkadot, general,
-Solana, Solana, general,
-Solana Foundation, Solana, general,
-Ethereum Foundation, Ethereum, general,
-Near Foundation, Near Protocol, general,
-Near Protocol, Near Protocol, general,
-BNB Chain, BNB Chain, general,
-XRP Ripple, Ripple, general,
-Cardano, Cardano, general,
-Cardano, Cardano Input Output, general,
-Web 3 Foundation, Polkadot, general,
-Tron, Tron, general,
-Uniswap, Uniswap, general,
-Chainlink, Chainlink, Oracle,
-Cosmos, Colsmos, general,
-Stellar, Stellar, general,
-Algorand, Alogrand, general,
-Geek, Geek, general,
+,company,chains,type,status
+0,IOTA,IOTA,general,completed
+1,Polygon,Polkadot,general,completed
+2,Solana,Solana,general,completed
+3,Solana Foundation,Solana,general,completed
+4,Ethereum Foundation,Ethereum,general,completed
+5,Near Foundation,Near Protocol,general,open
+6,Near Protocol,Near Protocol,general,open
+7,BNB Chain,BNB Chain,general,open
+8,XRP Ripple,Ripple,general,open
+9,Cardano,Cardano,general,open
+10,Cardano,Cardano Input Output,general,open
+11,Web 3 Foundation,Polkadot,general,open
+12,Tron,Tron,general,open
+13,Uniswap,Uniswap,general,open
+14,Chainlink,Chainlink,Oracle,
+15,Cosmos,Colsmos,general,open
+16,Stellar,Stellar,general,open
+17,Algorand,Alogrand,general,open
+18,Geek,Geek,general,open

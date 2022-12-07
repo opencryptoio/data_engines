@@ -18,6 +18,8 @@ from chromedriver_py import binary_path
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
+from nordvpn_switcher import initialize_VPN,rotate_VPN,terminate_VPN
+
 
 class Company:
         pass 
@@ -138,8 +140,6 @@ db = mongo_client["Crypto01"]
 
 openai.api_key = "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"
 
-google_news = GNews(language='en', max_results=100)
-
 counter = 0
 
 with open('./ai_models/prompt_examples_get_partners2.txt', 'r', encoding="utf-8") as f:
@@ -150,11 +150,13 @@ with open('./ai_models/prompt_examples_check_partners_result.txt', 'r', encoding
      examples_check_partners_ai = str(f.readlines())
      f.close()
 
-df_chains = pd.DataFrame(pd.read_csv('chains.csv'), columns=("company", "chain", "type", "status"))
+df_chains = pd.read_csv('chains.csv', header=0)
 df_chains = pd.DataFrame(df_chains[df_chains['status'] != "completed"])
 
-df_industries = pd.DataFrame(pd.read_csv('industries.csv'), columns=(["industries"]))
-df_daterange = pd.DataFrame(pd.read_csv('daterange.csv'), columns=(["daterange"]))
+df_industries = pd.read_csv('industries.csv', header=0)
+df_industries = pd.DataFrame(df_industries[df_industries['status'] != "completed"])
+
+df_daterange = pd.read_csv('daterange.csv', header=0)
 
 print(df_chains)
 
@@ -169,13 +171,17 @@ for chain in df_chains["company"]:
     print(chain)
 
     for industry in df_industries["industries"]:
+        
+        #rotate_VPN()
+        
+        google_news = GNews(language='en', max_results=100)
 
         for daterange in df_daterange["daterange"]:
 
             for keyword in ["partnering"]:
                 
                 if daterange == "none":
-                    news = google_news.get_news('{} AND blockchain AND {} AND {}'.format(chain, industry, keyword))
+                    news = google_news.get_news('{} AND {} AND {} AND blockchain'.format(chain, keyword, industry))
                     
                 else: news = google_news.get_news('{} AND {} AND {} AND {}'.format(chain, industry, daterange, keyword))
 
@@ -313,7 +319,14 @@ for chain in df_chains["company"]:
 
         
 
+        df_industries.loc[index, ['status']] = "completed"
+        df_industries.to_csv("industries.csv")
+    
+    df_industries.loc[:,'status'] = 'open'
+    df_industries.to_csv("industries.csv")
+    
     df_chains.loc[index, ['status']] = "completed"
+    df_chains.to_csv("chains.csv")
 
 
 
