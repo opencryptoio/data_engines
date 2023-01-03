@@ -1,0 +1,22 @@
+company,chains,type,status
+IOTA,IOTA,general,open
+Hyperledger, Hyperledger, open
+Corda, Corda, open
+Polygon,Polkadot,general,open
+Solana,Solana,general,open
+Solana Foundation,Solana,general,open
+Ethereum Foundation,Ethereum,general,open
+Near Foundation,Near Protocol,general,open
+Near Protocol,Near Protocol,general,open
+BNB Chain,BNB Chain,general,open
+XRP Ripple,Ripple,general,open
+Cardano,Cardano,general,open
+Cardano,Cardano Input Output,general,open
+Web 3 Foundation,Polkadot,general,open
+Tron,Tron,general,open
+Uniswap,Uniswap,general,open
+Chainlink,Chainlink,Oracle,
+Cosmos,Colsmos,general,open
+Stellar,Stellar,general,open
+Algorand,Alogrand,general,open
+Geek,Geek,general,open

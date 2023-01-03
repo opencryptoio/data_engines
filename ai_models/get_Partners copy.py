@@ -142,53 +142,7 @@ openai.api_key = "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"
 
 counter = 0
 
-with open('./ai_models/prompt_examples_get_partners2.txt', 'r', encoding="utf-8") as f:
-    examples_get_partners_ai = str(f.readlines())
-    f.close()
 
-with open('./ai_models/prompt_examples_check_partners_result.txt', 'r', encoding="utf-8") as f:
-     examples_check_partners_ai = str(f.readlines())
-     f.close()
-
-df_chains = pd.read_csv('chains.csv', header=0)
-df_chains = pd.DataFrame(df_chains[df_chains['status'] != "completed"])
-
-df_industries = pd.read_csv('industries.csv', header=0)
-df_industries = pd.DataFrame(df_industries[df_industries['status'] != "completed"])
-
-df_daterange = pd.read_csv('daterange.csv', header=0)
-
-print(df_chains)
-
-index = -1
-
-for chain in df_chains["company"]:
-    
-    index += 1
-
-    partners = []
-    
-    print(chain)
-
-    for industry in df_industries["industries"]:
-        
-        rotate_VPN()
-        
-        google_news = GNews(language='en', max_results=100)
-
-        for daterange in df_daterange["daterange"]:
-
-            for keyword in ["partnering"]:
-                
-                if daterange == "none":
-                    news = google_news.get_news('{} AND {} AND {} AND blockchain'.format(chain, keyword, industry))
-                    
-                else: news = google_news.get_news('{} AND {} AND {} AND {}'.format(chain, industry, daterange, keyword))
-
-                for item in news:
-
-                    with open("train_get_partners.jsonl", "a") as f_get_partners:
-                        with open("train_check_parners.jsonl", "a") as f_check_partners:
 
                             try:
 
